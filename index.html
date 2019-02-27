@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Video Streaming</title>
+  </head>
+  <body>
+    <h1>Canny Edge Detector Live Feed</h1>
+    <form method="post" action="test">
+      <input type="submit" name="submit" value="View Laplacian Operator" />
+    </form>
+    <form method="post" action="test1">
+      <input type="submit" name="submit_b" value="View Sobel Operator" />
+    </form>
+    <form method="post" action="test2">
+      <input type="submit" name="submit_c" value="View Hough Transform" />
+    </form>
+    <img src="{{ url_for('canny_feed') }}" />
+    <h1>Made by Rohin Dasari</h1>
+    <h3>rohin.dasari@gmail.com</h3>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Video Streaming</title>
+  </head>
+  <body>
+    <h1>Hough Transform Live Feed</h1>
+    <form method="post" action="index">
+      <input type="submit" name="submit" value="View Canny Operator" />
+    </form>
+    <form method="post" action="test">
+      <input type="submit" name="submit_b" value="View Laplacian Operator" />
+    </form>
+    <form method="post" action="test">
+      <input type="submit" name="submit_c" value="View Sobel Operator" />
+    </form>
+    <img src="{{ url_for('hough_feed') }}" />
+  </body>
+</html>
